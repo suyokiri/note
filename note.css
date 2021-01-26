@@ -1,188 +1,126 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Roboto:wght@300&display=swap');
 
-@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
 
-
-
- :root {
-
-     --cl:#efefef;
-     --cl1: #464141;
-     --cl2: hsl(228deg 83% 77%);
-     --main-color: #808080;
-      --f:'Play', sans-serif;
-        --f1: 'Oswald', sans-serif;
+:root {
+  --primary-color: #302AE6;
+  --secondary-color: white;
+  --font-color: #808080;
+  --bg-color: #fbfbfb;
+  --list-color: brown;
+  --selection: #ffbf0017;
+  --link-color: hsl(227.5,82.8%,77.3%);
+  --hover-color: hsl(248deg 94% 73%);
+  --mode: #343366;
+  --sh: 0px 1px 2px 1px rgb(0 0 0 / 10%);
+  --f: 'Play', sans-serif;
+  --f1: 'Oswald', sans-serif;
   --f2: 'Roboto', sans-serif;
-  --cl3: hsl(248deg 94% 73%);
-      --body-color: #b3b3b3;
-      --selection: #ffbf0017;
-      --sh: 0px 1px 2px 1px rgb(0 0 0 / 10%);
-      --w: white;
 }
 
+[data-theme="dark"] {
+  --primary-color: #302AE6;
+  --secondary-color: #434158;
+  --font-color: #a6abec;
+  --bg-color: #343366;
+  --list-color: brown;
+  --selection: #ffbf0017;
+  --link-color: hsl(56deg 59% 70%);
+  --hover-color: hsl(56deg 100% 51%);
+  --content-color: white;
+  --mode: #fbfbfb;
+}
 
 :focus {
-
-     outline:none;
-
- }
+  outline: none;
+}
 
 body {
-         background: var(--cl);
+  background: var(--bg-color);
 }
 
 ::selection {
-     background: var(--selection);
+  background: var(--selection);
 }
 
 a {
-
-     text-decoration: none;
-     color: var(--cl2);
+  text-decoration: none;
+  color: var(--link-color);
 }
 
 a:hover {
-    color: var(--cl3);
+  color: var(--hover-color);
 }
-
 
 li {
-    list-style: circle;
-    color: brown;
+  list-style: circle;
+  color: var(--list-color);
 }
-
 
 .main {
-    max-width: 700px;
-    margin: 0 auto;
+  max-width: 700px;
+  margin: 0 auto;
+  color: var(--content-color);
+  margin-top: 2em;
 }
-
-
-
 
 .main .b {
-    box-shadow: var(--sh);
-    padding: 1em;
-    border-radius: 2px;
-    margin-top: 1em;
-    background: var(--w);
-        font-family: var(--f2);
+  box-shadow: var(--sh);
+  padding: 1em;
+  border-radius: 2px;
+  background: var(--secondary-color);
+  font-family: var(--f2);
+  margin-top: 2em;
 }
-
-
-
-
-
-
 
 .side-menu svg {
-    fill: var(--body-color);
-    margin-right: 10px;
-    flex-shrink: 0;
+  fill: var(--font-color);
+  margin-right: 10px;
+  flex-shrink: 0;
 }
 
-
-
 .side-menu a {
-    margin-bottom: 20px;
-    text-decoration: none;
-    font-weight: 500;
-    color: var(--main-color);
-    display: flex;
-    align-items: center;
-    font-size: 18px;
-    white-space: nowrap;
-    font-family:var(--f);
-    margin-left: 1rem;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--font-color);
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  white-space: nowrap;
+  font-family: var(--f);
+  margin-left: 1em;
 }
 
 .side-wrapper {
-    height: 100%;
-    max-width: 200px;
-    width: auto;
-        position: fixed;
+  height: 100%;
+  max-width: 200px;
+  width: auto;
+  position: fixed;
 }
-
-
 
 .side-menu {
-    padding: 20px;
-
-
+  padding: 20px;
 }
 
-
- button.dl {
-    float: right;
-    border: 0;
-    background: var(--cl);
+.theme-switch svg {
+  fill: var(--mode);
+  float: right;
+  position: relative;
+  right: 20px;
+  top: 10px;
+  cursor: pointer;
 }
 
-
-
-.dl svg {
-    fill: #343366;
+.theme-switch input#checkbox {
+  visibility: hidden;
 }
 
+@media (max-width: 1200px) {
 
-/*DARK MODE*/
-
-
-
-body.dark-mode {
-      background-color: #343366;
-      color: #eee;
-}
- body.dark-mode a {
-      color: #111;
-}
- 
-
-
-
-body.dark-mode .main .b {
-
-    background: #3d414e;
-    color: #ffffff;
-}
- 
- body.dark-mode .b a {
-    color: #cfc9ff;
-}
-
-
-body.dark-mode .b a:hover {
-    color: #fff3b8;
-}
-
-body.dark-mode li {
-    color: blanchedalmond;
-}
-
-
-
-
-body.dark-mode  .side-menu a {
-    color: #bfd0e8;
-}
-
-body.dark-mode  .side-menu svg {
-fill: #bfd0e8;
-}
-
-
-   
-
- body.dark-mode  button.dl {
-    float: right;
-    border: 0;
-    background: #343366;
-}
-
-
-
- body.dark-mode .dl svg {
-    fill: var(--cl);
+  .side-menu {
+    display: none;
+  }
 }
