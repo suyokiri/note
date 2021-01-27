@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Roboto:wght@300&display=swap');
 
-@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
 
 :root {
   --primary-color: #302AE6;
@@ -139,7 +138,7 @@ li {
 
 .side-wrapper {
     height: auto;
-    width: auto;
+    max-width: 100%;
     position: absolute;
     display: flex;
     align-items: center;
