@@ -121,7 +121,7 @@ li {
 @media (max-width: 1200px) {
 
      .side-menu  {
-          display: initial;
+          display: flex;
      }
 
 
