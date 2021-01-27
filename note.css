@@ -118,7 +118,7 @@ li {
   visibility: hidden;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1124px) {
 
      .side-menu  {
           display: flex;
