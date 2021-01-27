@@ -59,7 +59,6 @@ li {
 }
 
 .main {
-    max-width: 700px;
     margin: 0 auto;
     color: var(--content-color);
     margin-top: 2em;
