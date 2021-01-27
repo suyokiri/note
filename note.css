@@ -120,7 +120,34 @@ li {
 
 @media (max-width: 1200px) {
 
-  .side-menu {
-    display: none;
-  }
+     .side-menu  {
+          display: initial;
+     }
+
+
+.side-menu a {
+
+    display: initial;
+    position: relative;
+}
+
+
+.main .b {
+   
+    margin-top: 2em;
+}
+
+.side-wrapper {
+    height: auto;
+    width: auto;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
 }
