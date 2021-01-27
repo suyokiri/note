@@ -122,36 +122,9 @@ li {
 }
 
 @media (max-width: 1124px) {
-
-     .side-menu  {
-          display: flex;
-     }
-
-
-
-.main .b {
-   
-    margin-top: 2em;
-}
-
 .side-wrapper {
-    height: auto;
-    max-width: 100%;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: 2em;
-    left: 0;
-    right: 0;
-
-}
-
-  .main {
-    
-        margin-top: 4em;
-    
+  display:none;
   }
-}
+  
 
 }
