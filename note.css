@@ -111,6 +111,7 @@ li {
   right: 20px;
   top: 10px;
   cursor: pointer;
+  z-index: 9;
 }
 
 .theme-switch input#checkbox {
