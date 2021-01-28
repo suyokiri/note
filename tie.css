@@ -114,7 +114,7 @@ button[onclick="goBack()"] {
   top: 1.5em;
   left: 1.5em;
   color: #dadada;
-  cursor: pointer
+  cursor: pointer;
   outline: none;
 }
 
