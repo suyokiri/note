@@ -102,3 +102,29 @@ h1 {
 .faq.active .faq-toggle {
   background: #9fa4a8;
 }
+
+button[onclick="goBack()"] {
+  background: #f0f0f0;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0px 2px 0 #f0f0f0, 2px 4px 6px #d0cccc61;
+  font-weight: 900;
+  letter-spacing: 1px;
+  transition: all 1s linear;
+  position: absolute;
+  top: 1.5em;
+  left: 1.5em;
+  color: #dadada;
+  cursor: pointer
+  outline: none;
+}
+
+button[onclick="goBack()"]:hover {
+  background: #f0f0f0;
+  border: 1px solid rgb(241 239 239);
+  box-shadow: inset 1px 1px 2px rgb(199 199 199 / 20%);
+  color: #dadada;
+  text-decoration: none;
+  transition: all 1s linear;
+}
+
+
