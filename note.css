@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Roboto:wght@300&display=swap');
 
 
@@ -14,9 +13,8 @@
   --hover-color: hsl(248deg 94% 73%);
   --mode: #343366;
   --sh: 0px 1px 2px 1px rgb(0 0 0 / 10%);
-  --f: 'Play', sans-serif;
-  --f1: 'Oswald', sans-serif;
-  --f2: 'Roboto', sans-serif;
+  --f: 'PT Serif', serif;
+
 }
 
 [data-theme="dark"] {
@@ -73,7 +71,7 @@ li {
   padding: 1em;
   border-radius: 2px;
   background: var(--secondary-color);
-  font-family: var(--f2);
+  font-family: var(--f);
   margin-top: 2em;
 }
 
