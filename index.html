@@ -6,11 +6,21 @@
   <link rel="stylesheet" type="text/css" href="note.css">
   <link href="fav.ico" rel="icon" type="image/x-icon">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  
   <title>Note</title>
 
 </head>
 
 <body>
+  <script>
+    const buttons = document.querySelectorAll('.faq-toggle');
+
+buttons.forEach(button => { button.parentNode.addEventListener('click', () => {
+    button.parentNode.classList.toggle('active');
+    console.log(button.classList);
+  })
+})
+  </script>
 
   
    <div class="theme-switch-wrapper">
