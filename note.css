@@ -126,6 +126,11 @@ li {
 position: absolute;
   }
   
+  .side-menu {
+  flex-direction: row;
+    display:flex;
+  }
+  
 .main {
     margin-top: 2em;
 }
