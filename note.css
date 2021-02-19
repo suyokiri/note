@@ -103,8 +103,6 @@ li {
 
 .side-menu {
   padding: 20px;
-  flex-direction: row;
-    display:flex;
 }
 
 .theme-switch svg {
