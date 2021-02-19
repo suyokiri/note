@@ -103,6 +103,8 @@ li {
 
 .side-menu {
   padding: 20px;
+  flex-direction: row;
+    display:flex;
 }
 
 .theme-switch svg {
@@ -119,9 +121,9 @@ li {
   visibility: hidden;
 }
 
-@media (max-width: 1124px) {
+@media (max-width: 1050px) {
 .side-wrapper {
-  display:none;
+position: absolute;
   }
   
 .main {
