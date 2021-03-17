@@ -13,6 +13,7 @@
   --selection: #ffbf0017;
   --link-color: hsl(227.5,82.8%,77.3%);
   --hover-color: hsl(248deg 94% 73%);
+  --progress:black;
   --mode: #343366;
   --sh: 0px 1px 2px 1px rgb(0 0 0 / 10%);
   --f: 'Karla', 'PT Serif', serif;
@@ -29,6 +30,7 @@
   --link-color: hsl(56deg 59% 70%);
   --hover-color: hsl(56deg 100% 51%);
   --content-color: white;
+  --progress:white;
   --mode: #fbfbfb;
 }
 
@@ -38,6 +40,8 @@
 
 body {
   background: var(--bg-color);
+  margin: 0;
+  padding: 0;
 }
 
 ::selection {
@@ -141,7 +145,7 @@ li {
 #progress-bar {
 	--scrollAmount: 0%;
 	
-	background: skyblue;
+	background: var(--progress);
 	width: var(--scrollAmount);
 	height: 4px;
 	position: fixed;
