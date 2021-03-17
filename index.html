@@ -11,6 +11,7 @@
 
 <body>
   
+   <!--- смена темы --->
    <div class="theme-switch-wrapper">
        <label class="theme-switch" for="checkbox">
     <input type="checkbox" id="checkbox" />
@@ -19,7 +20,8 @@
   </label>
   </div>
 
-   
+    
+
  
 
   <script>
@@ -46,6 +48,29 @@ function switchTheme(e) {
 
 toggleSwitch.addEventListener('change', switchTheme, false);
 </script>
+  
+  
+  <!--- прогресс бар --->
+  
+  let processScroll = () => {
+	let docElem = document.documentElement, 
+		docBody = document.body,
+		scrollTop = docElem['scrollTop'] || docBody['scrollTop'],
+    	scrollBottom = (docElem['scrollHeight'] || docBody['scrollHeight']) - window.innerHeight,
+		scrollPercent = scrollTop / scrollBottom * 100 + '%';
+	
+	// console.log(scrollTop + ' / ' + scrollBottom + ' / ' + scrollPercent);
+	
+    document.getElementById("progress-bar").style.setProperty("--scrollAmount", scrollPercent);	
+}
+
+document.addEventListener('scroll', processScroll);
+  
+    <!-------->
+
+  
+    <!--- меню --->
+
 <div class="side-wrapper">
      <div class="logo"></div>
      <div class="side-menu">
@@ -62,7 +87,7 @@ toggleSwitch.addEventListener('change', switchTheme, false);
 </div>
 </div>
 
-      
+       <!--- блок --->
 
 <div class="main">
 <div class="b"><a name="quotes"> </a> <p>Il vaut mieux poser la question et être bête pendant 5min que ne pas poser et rester le bête pendant toute la vie.</p>
