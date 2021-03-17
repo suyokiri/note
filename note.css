@@ -132,3 +132,19 @@ li {
     margin-top: 2em;
 }
 }
+
+
+
+
+/* Progress bar */
+
+#progress-bar {
+	--scrollAmount: 0%;
+	
+	background: skyblue;
+	width: var(--scrollAmount);
+	height: 4px;
+	position: fixed;
+	top: 0;
+}
+
