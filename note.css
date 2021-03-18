@@ -32,6 +32,7 @@
   --content-color: white;
   --progress:white;
   --mode: #fbfbfb;
+  --sh: 1px solid #585751;
 }
 
 :focus {
