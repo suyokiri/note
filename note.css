@@ -22,9 +22,9 @@
 
 [data-theme="dark"] {
   --primary-color: #302AE6;
-  --secondary-color: #434158;
-  --font-color: #a6abec;
-  --bg-color: #343366;
+  --secondary-color: #3b3e46;
+  --font-color: #898caf;
+  --bg-color: #2f3238;
   --list-color: #ffe206;
   --selection: #ffbf0017;
   --link-color: hsl(56deg 59% 70%);
@@ -32,7 +32,7 @@
   --content-color: white;
   --progress:white;
   --mode: #fbfbfb;
-  --sh: 1px solid #585751;
+  --sh: 1pt solid #4e4e4e;
 }
 
 :focus {
