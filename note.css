@@ -8,14 +8,14 @@
   --primary-color: #302AE6;
   --secondary-color: white;
   --font-color: #808080;
-  --bg-color: #fbfbfb;
+  --bg-color: #fffffb;
   --list-color: brown;
   --selection: #ffbf0017;
   --link-color: hsl(227.5,82.8%,77.3%);
   --hover-color: hsl(248deg 94% 73%);
   --progress:black;
   --mode: #343366;
-  --sh: 0px 1px 2px 1px rgb(0 0 0 / 10%);
+  --sh: 1px solid #dcd5bd;
   --f: 'Karla', 'PT Serif', serif;
 
 }
@@ -73,9 +73,9 @@ li {
 }
 
 .main .b {
-  box-shadow: var(--sh);
+  border: var(--sh);
   padding: 1em;
-  border-radius: 2px;
+  border-radius: 3pt;
   background: var(--secondary-color);
   font-family: var(--f);
   margin-top: 2em;
