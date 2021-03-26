@@ -73,6 +73,22 @@ li {
     flex-direction: column;
 }
 
+.b:before {
+    content: "";
+    background: url(https://randart.ru/art/Reily/avatar-s/) no-repeat;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 50%;
+    display: block;
+    top: -2.5em;
+    position: relative;
+    float: right;
+    left: 0em;
+    border: var(--sh);
+    border-width: 2pt;
+}
+
 .main .b {
   border: var(--sh);
   padding: 1em;
