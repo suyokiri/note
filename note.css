@@ -34,7 +34,7 @@
   --progress:white;
   --mode: #fbfbfb;
   --sh: 1pt solid #4e4e4e;
-  --bg:;
+  --bg: none;
 }
 
 :focus {
