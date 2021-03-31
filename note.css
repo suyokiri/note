@@ -41,7 +41,7 @@
 }
 
 body {
-  background: var(--bg-color), var(--bg);
+  background: var(--bg-color) var(--bg);
   margin: 0;
   padding: 0;
 }
