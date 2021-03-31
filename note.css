@@ -17,7 +17,7 @@
   --mode: #343366;
   --sh: 1px solid #dcd5bd;
   --f: 'Karla', 'PT Serif', serif;
-  -bg:no-repeat 20vw 30vh url(b1.svg), no-repeat right 15vw bottom 30vh url(b2.svg), no-repeat 45vw 30vh / 35vw url(b3.svg);
+  --bg:no-repeat 20vw 30vh url(b1.svg), no-repeat right 15vw bottom 30vh url(b2.svg), no-repeat 45vw 30vh / 35vw url(b3.svg);
 
 }
 
