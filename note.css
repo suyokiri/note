@@ -34,6 +34,7 @@
   --progress:white;
   --mode: #fbfbfb;
   --sh: 1pt solid #4e4e4e;
+  --bg:;
 }
 
 :focus {
@@ -45,6 +46,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--bg-color);
+    background-attachment: fixed;
+	
 }
 
 ::selection {
