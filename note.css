@@ -136,7 +136,7 @@ li {
 .theme-switch svg {
   fill: var(--mode);
   float: right;
-  position: relative;
+  position: fixed;
   right: 20px;
   top: 10px;
   cursor: pointer;
