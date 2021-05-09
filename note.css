@@ -55,9 +55,9 @@ body {
 }
 
 .b p {
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
-
 a {
   text-decoration: none;
   color: var(--link-color);
