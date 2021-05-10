@@ -76,6 +76,11 @@ li {
   color: var(--list-color);
 }
 
+pre {
+    font-family: var(--f);
+}
+
+
 .main {
     width: 700px;
     max-width: 100%;
