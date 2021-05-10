@@ -54,10 +54,8 @@ body {
   background: var(--selection);
 }
 
-.b p {
-    display: flex;
-    justify-content: center;
-}
+
+
 a {
   text-decoration: none;
   color: var(--link-color);
