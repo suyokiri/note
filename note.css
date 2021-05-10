@@ -55,6 +55,12 @@ body {
 }
 
 
+		.q {
+				margin: auto;
+				width: 300px;
+			}
+
+
 
 a {
   text-decoration: none;
